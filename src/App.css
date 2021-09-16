@@ -1,38 +1,78 @@
-.App {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*cabeçalho*/
+header,footer {
+  background-color: #444;
+  color: #fff;
+}
+h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Rodapé*/
+
+/*botoes*/
+.calculadora {
+  margin-top: 20px;
+  width: 280px;
+  padding: 10px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #000;
+  margin-left: 490px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px #444;
+  border-radius: 10px;
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn:hover {
+  background-color: rgb(231, 86, 28);
+  color: #fff;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.clear {
+  width: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.enter {
+  float: right;
+  height: 110px;
+}
+
+.zero {
+  width: 200px;
+}
+
+.resultado {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 2px;
+  width: 270px;
+  height: 40px;
+  box-shadow: 2px 2px 2px #000;
 }
