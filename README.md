@@ -6,5 +6,7 @@ projeto feito com intuito de praticar reactJs
 <br>
 - npm start
 <br>
+- faça as alterações necessárias ou reenvie do jeito que está me dando dicas
+<br>
 - submeta o pull request com sua sugestão ou dicas
 Obrigado !
